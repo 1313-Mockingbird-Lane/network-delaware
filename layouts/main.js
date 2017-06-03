@@ -3,7 +3,7 @@ import React from 'react'
 
 import { Grid, Row, Col } from 'react-bootstrap';
 import { PageHeader } from 'react-bootstrap';
-import { Nav, NavItem } from 'react-bootstrap';
+import { Navbar } from 'react-bootstrap';
 
 function handleSelect(href) {
     Router.push(href)
@@ -15,10 +15,13 @@ export default ({href, children}) => (
         <Row>
             <Col sm={12}>
                 <PageHeader>Network Delaware</PageHeader>
-                    <Nav bsStyle="pills" activeKey={ href } onSelect={handleSelect}>
-                        <NavItem eventKey="/" href="/">Home</NavItem>
-                        <NavItem eventKey="/about" href="/about">About</NavItem>
-                    </Nav>
+                    <Navbar>
+                        <Navbar.Header>
+                        <Navbar.Brand>
+                            <a href="/index"><img src="static/imgs/networkDE.png" alt="" class="logo" /></a>
+                        </Navbar.Brand>
+                        </Navbar.Header>
+                    </Navbar>
             </Col>
             <br />
         </Row>
