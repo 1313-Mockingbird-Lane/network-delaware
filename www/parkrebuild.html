@@ -85,70 +85,24 @@
                 </div>
                 <!-- /.container-->
         </nav>
-
+      
     </header>
 
-
-    <div class="wrapper">
-           <section id="screens">
+        <section id="demo">
             <div class="container">
-
                 <div class="section-heading scrollpoint sp-effect3">
-                    <button type="submit" class="btn btn-primary btn-lg"><a href="campaign.html">Create Campaign</a></button>
-
-                    <h1>Join a Team Today</h1>
+                    <h1 id="campaignTitle">Neighborhood Park rebuild</h1>
                     <div class="divider"></div>
-                    <p>See how you can contribute</p>
-                </div>
-
-                <div class="filter scrollpoint sp-effect3">
-                    <a href="volunteer-signup.html" class="button js-filter-two">Become a Volunteer</a>
-                </div>
-                
-            </div>
-        </section>
-        
-        <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingOne">
-                <h4 class="panel-title">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Neighborhood Park rebuild
-                    </a>
-                </h4>
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                <div class="panel-body">
-                <h4>We are looking for community members with building experience, gardners, and any looking to make our neighborhood a little more vibrant.
-                </h4>
-                <a href="parkrebuild.html">Checkout Campaign</a>
-                </div>
-                
+                    <p id="campaignPurpoose">We are looking for community members with building experience, gardners, and any looking to make our neighborhood a little more vibrant.</p>
+                     <a href="javascript:void(0)" class="button js-filter-one" onclick="" >Join Campaign</a>
+                    <br>
+                    <br>
+                    <br>
+                   <p id="currentVolunteers">12</p><h5>Current volunteers</h5>
                 </div>
             </div>
-        </div>
 
-          <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
-            <div class="panel panel-default">
-                <div class="panel-heading" role="tab" id="headingOne">
-                <h4 class="panel-title">
-                    <a class="collapsed" data-toggle="collapse" data-parent="#accordion" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                    Wilmington Riverfront Clean-up
-                    </a>
-                </h4>
-                
-                </div>
-                <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headingOne">
-                <div class="panel-body">
-                    <h4>As the summer in now in full swing, our riverfront will be become an increasingly popular destination for both locals and Wilmington visitors. I am seeking as many volunteers as possible to help clean up our Riverfront.
-                    </h4>
-                    <a href="wilmingtonCleanUp.html">Checkout Campaign</a>
-                </div>
-                </div>
-            </div>
-        </div>
-
-            <footer>
+        <footer>
             <div class="container">
                 <a href="#" class="scrollpoint sp-effect3">
                     <img src="assets/img/networkde.png" alt="" class="logo">
@@ -162,8 +116,7 @@
                 </div>
             </div>
         </footer>
-        
-    </div>
+    
     <script src="assets/js/jquery-1.11.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
@@ -176,11 +129,6 @@
         $(document).ready(function() {
             appMaster.preLoader();
         });
-
-        $(".collapsed").click(function(){
-                $(".panel-collapse").slideToggle(300);
-        });
-
     </script>
 </body>
 
