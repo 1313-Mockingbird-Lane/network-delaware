@@ -13,21 +13,30 @@ var volunteerFirstName;
 var volunteerLastName;
 var volunteerEmail;
 var volunteerZipcode;
+
+var campaign = new Object();
+var volunteer = new Object();
+
 function pullCampaignInfo(){
-    campaignTitle = document.getElementById("title");
-    purpose = document.getElementById("purpose");
-    ownerFirstName = document.getElementById("ownerFirstName");
-    ownerLastName = document.getElementById("ownerLastName");
-    campaignEmail = document.getElementById("organizationName");
-    address1 = document.getElementById("address1");
-    campaignZipcode = document.getElementById("campaignZipcode");
+    campaign.campaignTitle = document.getElementById("title");
+    campaign.purpose = document.getElementById("purpose");
+    campaign.ownerFirstName = document.getElementById("ownerFirstName");
+    campaign.ownerLastName = document.getElementById("ownerLastName");
+    campaign.campaignEmail = document.getElementById("organizationName");
+    campaign.address1 = document.getElementById("address1");
+    campaign.campaignZipcode = document.getElementById("campaignZipcode");
+    
+    console.log(String(campaign.campaignTitle));
 
 }
 
 function pullVolunteerInfo(){
-    volunteerFirstName = document.getElementById("firstName");
-    volunteerLastName = document.getElementById("lastName");
-    volunteerEmail = document.getElementById("volunteerEmail");
-    volunteerZipcode = document.getElementById("volunteerZipcode");
+    volunteer.volunteerFirstName = document.getElementById("firstName");
+    volunteer.volunteerLastName = document.getElementById("lastName");
+    volunteer.volunteerEmail = document.getElementById("volunteerEmail");
+    volunteer.volunteerZipcode = document.getElementById("volunteerZipcode");
 }
+
+    
+
 
