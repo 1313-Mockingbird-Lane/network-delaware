@@ -22,4 +22,20 @@ router.get('/donate/', function(req, res, next) {
   res.render('donate', { title: '' });
 });
 
+router.get('/campaign-list/', function(req, res, next) {
+  res.render(
+    'campaign_list',
+    {
+        foo: "bar",
+        member_campaigns: [
+            {"name": "Campaign 1", "purpose": "Purpose of campaign 1"},
+            {"name": "Campaign 2", "purpose": "Purpose of campaign 2"},
+        ],
+        local_campaigns: [
+            {"name": "Campaign 3", "purpose": "Purpose of campaign 3"},
+            {"name": "Campaign 4", "purpose": "Purpose of campaign 4"},
+        ]
+    }
+  );
+});
 module.exports = router;
