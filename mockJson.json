@@ -1,0 +1,36 @@
+[{
+   "_id": "1",
+   "firstName": "Tom",
+   "lastName": "Marks",
+   "zipcode": "19810",
+   "email": "tom@tom.com"
+},
+{
+   "_id": "2",
+   "firstName": "Justin",
+   "lastName": "H",
+   "zipcode": "19810",
+   "email": "tom@tom.com"
+},
+{
+   "_id": "3",
+   "firstName": "Marks",
+   "lastName": "Tom",
+   "zipcode": "19810",
+   "email": "tom@tom.com"
+},
+{
+   "_id": "4",
+   "firstName": "Bill",
+   "lastName": "Micks",
+   "zipcode": "19810",
+   "email": "tom@tom.com"
+},
+{
+   "_id": "5",
+   "firstName": "Sarah",
+   "lastName": "Weisser",
+   "zipcode": "19810",
+   "email": "tom@tom.com"
+}
+]

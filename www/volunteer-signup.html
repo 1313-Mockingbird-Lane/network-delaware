@@ -12,47 +12,36 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
     <link rel="shortcut icon" href="nd.png">
-    
+
     <!-- Bootstrap 3.3.2 -->
     <link rel="stylesheet" href="assets/css/bootstrap.min.css">
-    
+
     <link rel="stylesheet" href="assets/css/animate.css">
     <link rel="stylesheet" href="assets/css/font-awesome.min.css">
     <link rel="stylesheet" href="assets/css/slick.css">
     <link rel="stylesheet" href="assets/js/rs-plugin/css/settings.css">
 
     <link rel="stylesheet" href="assets/css/styles.css">
-
+    <style>
+        .user-input{
+            float: left;
+        }
+    </style>
 
     <script type="text/javascript" src="assets/js/modernizr.custom.32033.js"></script>
 
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
 </head>
 
 <body>
-    <!--
-    <div class="pre-loader">
-        <div class="load-con">
-            <img src="assets/img/networkDE.png" class="animated fadeInDown" alt="">
-            <div class="spinner">
-              <div class="bounce1"></div>
-              <div class="bounce2"></div>
-              <div class="bounce3"></div>
-            </div>
-        </div>
-    </div>
-   -->
+
     <header>
-        
+
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
 
-            
+
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
-                    
+
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                             <span class="fa fa-bars fa-lg"></span>
@@ -61,10 +50,10 @@
                             <img src="assets/img/networkDE.png" alt="" class="logo">
                         </a>
                     </div>
-                    
+
                     <!-- Collect the nav links, forms, and other content for toggling -->
 
-                    
+
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 
                         <ul class="nav navbar-nav navbar-right">
@@ -80,28 +69,73 @@
                             </li>
                         </ul>
                     </div>
-                    
+
                     <!-- /.navbar-collapse -->
                 </div>
                 <!-- /.container-->
         </nav>
-      
+
     </header>
 
-        <section id="demo">
+
+    <div class="wrapper">
+          <section id="demo">
             <div class="container">
                 <div class="section-heading scrollpoint sp-effect3">
-                    <h1 id="campaignTitle">Wilmington Riverfront Clean-up</h1>
+                    <h1>Volunteer Signup</h1>
                     <div class="divider"></div>
-                    <p id="campaignPurpoose">As the summer in now in full swing, our riverfront will be become an increasingly popular destination for both locals and Wilmington visitors. I am seeking as many volunteers as possible to help clean up our Riverfront.</p>
-                    
-                     <a href="javascript:void(0)" class="button js-filter-one" onclick="" >Join Campaign</a>
-                    <br>
-                    <br>
-                    <br>
-                   <p id="currentVolunteers">34</p><h5>Current volunteers</h5>
+                    <p>You are already closer to making a difference.</p>
                 </div>
             </div>
+            <div class="container-fluid">
+                <div id="user-input row">
+
+
+                        <input id="firstName" type="text" class="form-control" placeholder="First Name" aria-describedby="basic-addon1">
+
+                        <input id="lastName" type="text" class="form-control" placeholder="Last Name" aria-describedby="basic-addon1">
+
+                        <input id="volunteerEmail" type="text" class="form-control" placeholder="Email" aria-describedby="basic-addon1">
+
+                        <input id="city" type="text" class="form-control" placeholder="City" aria-describedby="basic-addon1">
+
+                        <input id="volunteerZipcode" type="text" class="form-control" placeholder="Zipcode" aria-describedby="basic-addon1">
+                    
+                     <!--   
+                    <div class="form-group">
+                        <div class="col-sm-12">
+                            <select class="form-control" id="volunteer" name="volunteer">
+                                <option value="">Select Issue</option>
+                                <option value="Giving">Giving</option>
+                                <option value="Cleanup">Cleanup</option>
+                                <option value="Human Services">Human Services</option>
+                                <option value="Community Services">Community Services</option>
+                                <option value="Political Action">Political Action</option>
+                                <option value="Electoral Politics">Electoral Politics</option>
+                                <option value="Canvasing">Canvasing</option>
+                                <option value="Justice">Justice</option>
+                                <option value="Building">Building</option>
+                                <option value="Social Justice">Social Justice</option>
+                                <option value="Economic Justice">Economic justice</option>
+                                <option value="Community Creativity">Community Creativity</option>
+                                <option value="Youth Engagement">Youth Engagement</option>
+                                <option value="Health">Health</option>
+                                <option value="Repair">Repair</option>
+                                <option value="Revitalization">Revitalization</option>
+                            </select>
+                        </div>
+                    </div>
+                    -->
+                </div>
+                <br>
+                <a href="volunteer-search.html"><button type="button" class="btn" onclick="">Start Volunteering</button></a>
+
+            </div>
+
+        </section>
+        </div>
+
+
 
         <footer>
             <div class="container">
@@ -117,7 +151,9 @@
                 </div>
             </div>
         </footer>
-    
+
+
+
     <script src="assets/js/jquery-1.11.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
