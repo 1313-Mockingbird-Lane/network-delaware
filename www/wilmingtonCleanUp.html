@@ -33,7 +33,18 @@
 </head>
 
 <body>
-    
+    <!--
+    <div class="pre-loader">
+        <div class="load-con">
+            <img src="assets/img/networkDE.png" class="animated fadeInDown" alt="">
+            <div class="spinner">
+              <div class="bounce1"></div>
+              <div class="bounce2"></div>
+              <div class="bounce3"></div>
+            </div>
+        </div>
+    </div>
+   -->
     <header>
         
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
@@ -55,72 +66,42 @@
 
                     
                     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
                         <ul class="nav navbar-nav navbar-right">
                             <li><a href="campaign.html">Start Local Campaign</a>
                             </li>
                             <li><a href="Volunteer.html">Volunteer</a>
                             </li>
-                            <li><a href="Donate.html">Donate</a>
+                            <li><a href="meetups.html">Meetup</a>
                             </li>
                             <li><a href="Organize.html">Organize</a>
                             </li>
                             <li><a href="volunteer-search.html">Volunteer Search</a>
                             </li>
                         </ul>
-                        
                     </div>
                     
                     <!-- /.navbar-collapse -->
                 </div>
                 <!-- /.container-->
         </nav>
-       
+      
     </header>
 
-        <section id="about">
+        <section id="demo">
             <div class="container">
-                
                 <div class="section-heading scrollpoint sp-effect3">
-                    <h1>Our Time Is Now</h1>
+                    <h1 id="campaignTitle">Wilmington Riverfront Clean-up</h1>
                     <div class="divider"></div>
-                    <p>Discover How You Can Give back</p>
-                </div>
-
-                <div class="row">
-                    <div class="col-md-3 col-sm-3 col-xs-6">
-                            <div class="about-item scrollpoint sp-effect2">
-                               <a href="campaign.html"><i class="fa fa-download fa-2x"></i></a>
-                                <h3>Start Local Campaign</h3>
-                                <p> Have a cause to solve but need more help? Easily begin your campaign and connect with local, eager volunteers.</p>
-                            </div>
-                    </div>
-                    <div class="col-md-3 col-sm-3 col-xs-6" >
-                        <div class="about-item scrollpoint sp-effect5">
-                            <a href="volunteer-signup.html"><i class="fa fa-mobile fa-2x"></i></a>
-                            <h3>Become a Volunteer</h3>
-                            <p>Have you been looking to join local volunteer teams but confused on how to begin? Find the team that best fits you within seconds.</p>
-                        </div>
-                    </div>
-<!--
-                    <div class="col-md-3 col-sm-2 col-xs-6" >
-                        <div class="about-item scrollpoint sp-effect1">
-                            <a href=""><i class="fa fa-sliders fa-2x"></i></a>
-                            <h3>Organize</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-sm-2 col-xs-6" >
-                        <div class="about-item scrollpoint sp-effect5">
-                            <a href=""><i class="fa fa-users fa-2x"></i></a>
-                            <h3>Donate</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore.</p>
-                        </div>
-                    </div>
--->    
+                    <p id="campaignPurpoose">As the summer in now in full swing, our riverfront will be become an increasingly popular destination for both locals and Wilmington visitors. I am seeking as many volunteers as possible to help clean up our Riverfront.</p>
+                    
+                     <a href="javascript:void(0)" class="button js-filter-one" onclick="" >Join Campaign</a>
+                    <br>
+                    <br>
+                    <br>
+                   <p id="currentVolunteers">34</p><h5>Current volunteers</h5>
                 </div>
             </div>
-        </section>
 
         <footer>
             <div class="container">
@@ -136,7 +117,7 @@
                 </div>
             </div>
         </footer>
-
+    
     <script src="assets/js/jquery-1.11.1.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/slick.min.js"></script>
