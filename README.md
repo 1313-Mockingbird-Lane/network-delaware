@@ -19,3 +19,6 @@ Express is a minimal and flexible Node.js web application framework that provide
 http://getbootstrap.com/
 Bootstrap is the most popular HTML, CSS, and JavaScript framework for developing responsive, mobile-first web sites.
 
+### PouchDB
+https://pouchdb.com/
+PouchDB is an open-source JavaScript database inspired by Apache CouchDB that is designed to run well within the browser.
